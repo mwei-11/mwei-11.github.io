@@ -1,16 +1,203 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <meta http-equiv=" " X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Myra's Site</title>
     <link rel="stylesheet" href=" StyleSheet.css" />
+    <script src="https://kit.fontawesome.com/70fd45739a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Heading1 newest test</h1>
-    <p>Hello</p>
-    <p>P2</p>
+
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="logo.png" class="logo" />
+                <ul>
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#work">work</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#volunteer">volunteer</a></li>
+                    <li><a href="#contact">contact</a></li>
+
+                </ul>
+            </nav>
+            <div class=" header-text">
+                <h1>MYRA WEI</h1>
+                <p>Biomedical Engineering Student at the <br />University of British Columbia</p>
+
+
+            </div>
+        </div>
+    </div>
+
+ 
+    <!-------- skills ---------->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-solid fa-code" style="color: #536946;"></i>
+                    <h2>Software</h2>
+                    <p>Java, Python, R, C, HTML, CSS, Solidworks, Arduino, LaTeX, Word, Excel</p>
+
+                </div>
+
+
+
+                <div>
+                    <i class="fa-solid fa-flask" style="color: #536946;"></i>
+                    <h2>Laboratory</h2>
+                    <p>Aseptic technique, DNA purification, immunofluorescence staining/imaging, gel electrophoresis, cell culture, gene transfection</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-seedling" style="color: #536946;"></i>
+                    <h2>Certificates</h2>
+                    <p>First Aid (CPR/AED), WHMIS Provincial, Biosafety & Chemical Safety (BC Cancer)</p>
+                </div>
+
+
+            </div>
+
+
+        
+        </div>
+    </div>
+    <!-----work---->
+    <div id="work">
+
+
+        <section>
+            <h1 class="title">work experience</h1>
+            <div class="experience">
+                <div class="job">
+                    <h3>Pharmaplanter Technologies (2023)</h3>
+
+                    <svg width="15" height="10" viewBox="0 0 42 25">
+                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div class="description">
+                    <p>
+                        I spent my first co-op term as a Laboratory Research Intern at Pharmaplanter Technologies,
+                        where I conducted an independent research experiment to develop a novel gene transfection stabilization reagent.
+                        My daily responsibilities included preparing chemical reagents, running gel electrophoresis, and culturing cells for various
+                        research activities.
+                    </p>
+
+
+                </div>
+            </div>
+            <div class="experience">
+                <div class="job">
+                    <h3>UBC Geering Up (2022)</h3>
+
+                    <svg width="15" height="10" viewBox="0 0 42 25">
+                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div class="description">
+                    <p>
+                        I spent my first co-op term as a Laboratory Research Intern at Pharmaplanter Technologies,
+                        where I conducted an independent research experiment to develop a novel gene transfection stabilization reagent.
+                        My daily responsibilities included preparing chemical reagents, running gel electrophoresis, and culturing cells for various
+                        research activities.
+                    </p>
+
+                </div>
+            </div>
+            <div class="experience">
+                <div class="job">
+                    <h3>Earl's Kitchen And Bar (2021)</h3>
+
+                    <svg width="15" height="10" viewBox="0 0 42 25">
+                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div class="description">
+                    <p>
+                        I spent my first co-op term as a Laboratory Research Intern at Pharmaplanter Technologies,
+                        where I conducted an independent research experiment to develop a novel gene transfection stabilization reagent.
+                        My daily responsibilities included preparing chemical reagents, running gel electrophoresis, and culturing cells for various
+                        research activities.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="./Script1.js"></script>
+
+    <!---Projects Good-->
+
+    <article class="article">
+        <h1 class="article__heading">PROJECTS</h1>
+        <div class="article__content">
+            <div class="grid-container">
+
+                <div class="grid-item">
+                    <div class="image">
+                        <img class="image__img" src="rover.jpg" alt="Rover" />
+                        <div class="image__overlay">
+                            <div class="image__title">Autonomous soil testing module</div>
+                            <p class="image__description">Developing spectroscopy system on UBC Rover for biological and chemical testing,
+                            including prescence of proteins.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="image">
+                        <img class="image__img" src="gene.jpg" alt="Gene" />
+                        <div class="image__overlay">
+                            <div class="image__title">Gene transfection reagent R&D</div>
+                            <p class="image__description">Optimized stabilization reagent to preserve efficacy of PEI over time</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-item">
+                    <div class="image">
+                        <img class="image__img" src="cat.jpg" alt="cat" />
+                        <div class="image__overlay">
+                            <div class="image__title">Pebble</div>
+                            <p class="image__description">Description</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </article>
+   
+    <!--volunteer-->
+
+    <!-------contact--------->
+
+    <div id="contact">
+        <div class="contact-info">
+            <h1 class=" sub-title">Let's get in touch!</h1>
+
+            <h2>mwei11@student.ubc.ca</h2>
+            <div class="social-icons">
+                <a href="linkedin.com/in/myra-wei-427826228"><i class="fa-brands fa-linkedin" style="color: #5c9834;"></i></a>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p> Copyright &copy; Myra Wei 2023</p>
+    </div>
+
+
 
 </body>
 </html>
