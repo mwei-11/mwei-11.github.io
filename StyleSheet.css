@@ -477,6 +477,7 @@ svg {
     grid-gap: 20px;
     justify-content: center;
     align-content: center;
+    margin-right:0;
 }
 /* .article2 .article__content .grid-container .grid-item .volunteer-text {
         font-size: 1em;
@@ -506,7 +507,7 @@ svg {
     }
 
         #contact h2:hover {
-            color: #5c9834; /* Change to the desired color on hover */
+            color: #5c9834; 
             padding-bottom: 3px;
         }
 
